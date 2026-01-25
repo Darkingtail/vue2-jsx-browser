@@ -27,8 +27,8 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0(@babel/core@7.28.6)
       html-tags:
-        specifier: ^3.3.1
-        version: 3.3.1
+        specifier: ^5.1.0
+        version: 5.1.0
       lodash.kebabcase:
         specifier: ^4.1.1
         version: 4.1.1
@@ -1121,9 +1121,9 @@ packages:
     resolution: {integrity: sha512-+Il6N8cCo2wB/Vd3gqy/8TZhTD3QvcVeQLCnZiGkGCH3JP28IgGAY41giccp2W4R3jfyJPAP318FQTa1yU7K7g==}
     engines: {node: '>=4'}
 
-  html-tags@3.3.1:
-    resolution: {integrity: sha512-ztqyC3kLto0e9WbNp0aeP+M3kTt+nbaIveGmUxAtZa+8iFgKLUOD4YKM5j+f3QD89bra7UeumolZHKuOXnTmeQ==}
-    engines: {node: '>=8'}
+  html-tags@5.1.0:
+    resolution: {integrity: sha512-n6l5uca7/y5joxZ3LUePhzmBFUJ+U2YWzhMa8XUTecSeSlQiZdF5XAd/Q3/WUl0VsXgUwWi8I7CNIwdI5WN1SQ==}
+    engines: {node: '>=20.10'}
 
   http-proxy-agent@7.0.2:
     resolution: {integrity: sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==}
@@ -3101,7 +3101,7 @@ snapshots:
 
   html-tags@2.0.0: {}
 
-  html-tags@3.3.1: {}
+  html-tags@5.1.0: {}
 
   http-proxy-agent@7.0.2:
     dependencies:
