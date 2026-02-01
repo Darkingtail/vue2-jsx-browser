@@ -35,6 +35,9 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit",
     "prepare": "husky"
   },
@@ -53,13 +56,14 @@
     "@babel/core": "^7.26.0",
     "@commitlint/cli": "^19.0.0",
     "@commitlint/config-conventional": "^19.0.0",
-    "husky": "^9.0.0",
-    "semantic-release": "^24.0.0",
     "@types/babel__core": "^7.20.5",
     "@types/babel__helper-module-imports": "^7.18.3",
     "@types/lodash.kebabcase": "^4.1.9",
+    "husky": "^9.0.0",
+    "semantic-release": "^24.0.0",
     "tsup": "^8.3.5",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vitest": "^4.0.18"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0"
