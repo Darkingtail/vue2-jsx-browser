@@ -60,7 +60,7 @@
     "@types/babel__helper-module-imports": "^7.18.3",
     "@types/lodash.kebabcase": "^4.1.9",
     "husky": "^9.0.0",
-    "semantic-release": "^24.0.0",
+    "semantic-release": "^25.0.3",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2",
     "vitest": "^4.0.18"
