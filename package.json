@@ -48,7 +48,7 @@
     "@vue/babel-sugar-functional-vue": "^1.4.0",
     "@vue/babel-sugar-v-model": "^1.4.0",
     "@vue/babel-sugar-v-on": "^1.4.0",
-    "html-tags": "^3.3.1",
+    "html-tags": "^5.1.0",
     "lodash.kebabcase": "^4.1.1",
     "svg-tags": "^1.0.0"
   },
